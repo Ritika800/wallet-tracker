@@ -1,0 +1,20 @@
+{
+  "type": "module",
+  "name": "base-wallet-watcher",
+  "version": "1.0.0",
+  "exports": "./dist/index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.9.2",
+    "@types/node-notifier": "^8.0.5",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "ethers": "^6.13.4",
+    "node-notifier": "^10.0.1",
+    "open": "^10.1.0"
+  },
+  "scripts": {
+    "start": "yarn run tsc && node dist/index.js"
+  }
+}
