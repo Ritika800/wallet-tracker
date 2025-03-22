@@ -4,6 +4,3 @@ NodeJS script that checks the balances of multiple wallets and sends a desktop n
 # How to run:
 After changing the list of addresses in src/index.ts, run:
 
-`<br> yarn install </br>
-<br> yarn run start </br>
-`
